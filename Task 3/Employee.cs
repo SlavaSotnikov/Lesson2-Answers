@@ -93,7 +93,7 @@ namespace Task_3
 
         public void ShowSalary()
         {
-            Console.WriteLine("Зарплата {0}, подоходный налог {1}", CountSalary(), CountSalary() * 0.13);
+            Console.WriteLine("Зарплата {0}, подоходный налог {1}.", CountSalary(), CountSalary() * 0.13);
         }
     }
 }
